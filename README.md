@@ -9,7 +9,9 @@
 - KOAT base모델인 KoAlpaca 또한, QLORA방식으로 메모리를 효율적으로 활용하는 방법을 소개하고 있습니다.
   - 자세한 내용은 Beomi 님의 깃허브를 참조바랍니다. (https://github.com/Beomi/KoAlpaca)
 
-- 저희 연구는 주식회사 마커의 대표이신 [정철현] 박사님의 주도하에 연구를 진행되었으며 빠른 훈련방식과 더 효율적인 방법론으로 소개된 IA3(T-Few) 방식으로 fine-tuning진행하여,
+- 본 연구는 (주)마커와 (주)미디어그룹사람과숲의 오픈소스 LLM 연구 컨소시엄에서 진행되었습니다.
+
+- 빠른 훈련방식과 더 효율적인 방법론으로 소개된 IA3(T-Few) 방식으로 fine-tuning진행하여,
 더 적은 파라미터로 더 효율적인 훈련방식을 도입하였습니다.
 
 - **K(G)OAT5.8b 는 더 적은 파라미터로도 polyglot5.8b와 ko-Alpaca5.8b를 Fewshot평가에서 프롬프트1의 경우0.712, 프롬프트2의 경우 0.810 의 성능을 보여주었습니다.**
@@ -123,6 +125,6 @@ koalpaca-polyglot-5.8b | 0.664 | 0.748
 
 # Acknowledgement
 
-- 주식회사 마커의 LLM프로젝트를 학술적으로 연구하였으며, 학술적인 목적임을 알리는 바입니다.
+- (주)마커와 (주)미디어그룹사람과숲의 컨소시엄에서 학술적인 목적으로 연구되었으며, 오픈소스 MIT License를 따릅니다. 
 
 - K(G)OAT는 A5000 2장으로 훈련되었으며, 한동대학교 [Xiaopeng Yang](https://www.researchgate.net/profile/Xiaopeng-Yang-2) 교수님의 AIMV 연구실에서 훈련되었습니다.
