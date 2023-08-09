@@ -127,4 +127,4 @@ koalpaca-polyglot-5.8b | 0.664 | 0.748
 
 - (주)마커와 (주)미디어그룹사람과숲의 컨소시엄에서 학술적인 목적으로 연구되었으며, 오픈소스 MIT License를 따릅니다. 
 
-- K(G)OAT는 A5000 2장으로 훈련되었으며, 한동대학교 [Xiaopeng Yang](https://www.researchgate.net/profile/Xiaopeng-Yang-2) 교수님의 AIMV 연구실에서 훈련되었습니다.
+- K(G)OAT는 A5000 2장으로 훈련되었으며, 한동대학교 [Xiaopeng Yang](https://www.researchgate.net/profile/Xiaopeng-Yang-2) 교수님의 AIMV 연구실의 도움을 받아 훈련되었습니다.
