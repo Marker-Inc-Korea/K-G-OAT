@@ -22,7 +22,9 @@
 
   - Hugging Face에 업로드한 모델은 [여기](https://huggingface.co/DopeorNope/KOAT-5.8b) 서 확인 바랍니다..!
     
-    - 현재 Huggingface에 올라온 가중치가 업로드중 날아간 상태입니다.. 곧 다시 업로드 예정입니다! 감사합니다 ㅎㅎ
+  - 현재 Huggingface에 모델가중치를 업로드하였고, 로드하는 방식또한 확인하실 수 있게 코드를 업로드 하였습니다.
+
+  - Fewshot 평가를 보여드릴 수 있도록 [Load_and_Fewshot_test.ipynb](https://github.com/Marker-Inc-Korea/K-G-OAT/blob/main/Load_and_Fewshot_test.ipynb)에 Inference 및 모델 로드 하는 코드를 올려놓았습니다!
 
 ---
 # K(G)OAT의 훈련 방식 🖋️
