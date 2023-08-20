@@ -20,7 +20,7 @@
 - 빠른 훈련방식과 더 효율적인 방법론으로 소개된 IA3(T-Few) 방식으로 fine-tuning진행하여,
 더 적은 파라미터로 더 효율적인 훈련방식을 도입하였습니다.
 
-- **K(G)OAT5.8b 는 더 적은 파라미터로도 polyglot5.8b와 ko-Alpaca5.8b를 Fewshot평가에서 프롬프트1의 경우0.712, 프롬프트2의 경우 0.810 의 성능을 보여주었습니다.**
+- **`K(G)OAT5.8b` 는 더 적은 파라미터로도 polyglot5.8b와 ko-Alpaca5.8b를 Fewshot평가에서 프롬프트1의 경우0.712, 프롬프트2의 경우 0.810 의 성능을 보여주었습니다.**
 
 
   - PEFT에서는 현재 IA3방식을 implement할 수 있으나, 주의할점은 Casual LM task에서는 라이브러리 코드를 수정해야 합니다.
@@ -51,11 +51,11 @@
   
 - IA3방식이란?
 
-  - LoRA는 rank decomposition 행렬을 사전학습된 모델에 추가하여 중간마다 학습이 가능한 파라미터를 삽입한 방식입니다.
+  - `LoRA`는 rank decomposition 행렬을 사전학습된 모델에 추가하여 중간마다 학습이 가능한 파라미터를 삽입한 방식입니다.
     
-  - IA3는 Infused Adapter by Inhibiting and Amplifying Inner Activations의 약자로, LORA와 비슷하게 적은 파라미터를 사전학습된 모델에 추가하여 훈련하는 방법입니다.
+  - `IA3`는 Infused Adapter by Inhibiting and Amplifying Inner Activations의 약자로, LORA와 비슷하게 적은 파라미터를 사전학습된 모델에 추가하여 훈련하는 방법입니다.
     
-  - LoRA와의 차이점은, LoRA는 hidden state에 새로운 값을 더해주는 기법이지만, IA3의는 Attention에 Key, Value 값을 rescale해주는 벡터와 position-wise feed-forward network의 output을 rescale 하는 벡터를 추가해 훈련시키는 방식입니다.
+  - LoRA와의 차이점은, LoRA는 hidden state에 새로운 값을 더해주는 기법이지만, IA3의는 Attention에 Query, Key, Value 값을 `rescale`해주는 벡터와 position-wise feed-forward network의 output을 rescale 하는 벡터를 추가해 훈련시키는 방식입니다.
     
   - IA3방식은 LoRA보다 적은 파라미터로 더 좋은 성능을 낸다는 방법론으로 도입 되었으며 저희는 K(G)OAT를 활용하여 훈련을 진행하였습니다.
 
