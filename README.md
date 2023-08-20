@@ -4,7 +4,7 @@
 # K(G)OAT 🐐
 
 <p align="center" width="100%">
-<img src="sources/IA3_LORA.png" alt="IA3 icon" style="width: 600px; height:400px; display: block; margin: auto; border-radius: 50%;">
+<img src="sources/IA3_LORA.png" alt="IA3 icon" style="width: 1073px; height:477px; display: block; margin: auto; border-radius: 50%;">
 </p>
 
 - IA3방식으로 KoAlpaca를 fine tuning한 한국어 LLM모델
