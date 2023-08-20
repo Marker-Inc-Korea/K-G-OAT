@@ -8,8 +8,7 @@
 </p>
 
 ---
-
-- IA3방식으로 KoAlpaca를 fine tuning한 한국어 LLM모델
+- `IA3방식`으로 KoAlpaca를 fine tuning한 한국어 LLM모델
 
 - 요즘 LLM은 대부분 LoRA방식으로 훈련이 진행되고 있으며, 최근은 양자화 방식을 도입한 QLORA방식으로 많이 훈련되고 있습니다.
 
@@ -37,9 +36,9 @@
     
   - 현재 Huggingface에 모델가중치를 업로드하였고, 로드하는 방식또한 확인하실 수 있게 코드를 업로드 하였습니다.
 
-  - Fewshot 평가를 보여드릴 수 있도록 ['Load_and_Fewshot_test.ipynb'](https://github.com/Marker-Inc-Korea/K-G-OAT/blob/main/Load_and_Fewshot_test.ipynb)에 Inference 및 모델 로드 하는 코드를 올려놓았습니다!
+  - Fewshot 평가를 보여드릴 수 있도록 [`Load_and_Fewshot_test.ipynb`](https://github.com/Marker-Inc-Korea/K-G-OAT/blob/main/Load_and_Fewshot_test.ipynb)에 Inference 및 모델 로드 하는 코드를 올려놓았습니다!
     
-  - ipynb 포맷으로 IA3방식으로 finetuning하는 코드 완성하여 ['Training_IA3.ipynb'](https://github.com/Marker-Inc-Korea/K-G-OAT/blob/main/Training_IA3.ipynb)로 업로드 하였습니다!
+  - ipynb 포맷으로 IA3방식으로 finetuning하는 코드 완성하여 [`Training_IA3.ipynb`](https://github.com/Marker-Inc-Korea/K-G-OAT/blob/main/Training_IA3.ipynb)로 업로드 하였습니다!
 ---
 # K(G)OAT의 훈련 방식 🖋️
 
